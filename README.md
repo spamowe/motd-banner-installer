@@ -2,6 +2,17 @@
 
 Replaces default Ubuntu login messages with a custom ASCII art banner.
 
+```
+ ___    ___            ___    _               _
+(  _`\ (  _`\         (  _`\ ( )_            ( ) _
+| (_) )| (_) ) ______ | (_(_)| ,_) _   _    _| |(_)   _
+|  _ <'|  _ <'(______)`\__ \ | |  ( ) ( ) /'_` || | /'_`\
+| (_) )| (_) )        ( )_) || |_ | (_) |( (_| || |( (_) )
+(____/'(____/'        `\____)`\__)`\___/'`\__,_)(_)`\___/'
+
+```
+
+
 ## What it does
 
 - Shows a custom ASCII art logo on login
