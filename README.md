@@ -23,6 +23,7 @@ Replaces default Ubuntu login messages with a custom ASCII art banner.
 ## Usage
 
 ```bash
+chmod +x install-banner.sh
 sudo ./install-banner.sh
 ```
 
