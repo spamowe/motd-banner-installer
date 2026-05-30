@@ -51,12 +51,12 @@ if [ ! -f "$UPDATES_FILE" ]; then
 updates=$(/usr/lib/update-notifier/apt-check 2>&1 | cut -d';' -f1)
 security=$(/usr/lib/update-notifier/apt-check 2>&1 | cut -d';' -f2)
 
-echo "-------------------------------------------------------------------------------------"
+echo "--------------------------------------------------------------------------------"
 echo "$updates updates can be applied immediately."
 if [ "$security" -gt 0 ] 2>/dev/null; then
     echo "$security of these updates are standard security updates."
 fi
-echo "-------------------------------------------------------------------------------------"
+echo "--------------------------------------------------------------------------------"
 EOF
     chmod +x "$UPDATES_FILE"
     echo "utworzono: $UPDATES_FILE"
